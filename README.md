@@ -13,3 +13,8 @@ set server_ip=localhost
 
 ## 注意事项
 1. windows对服务程序所在的目录不支持"-"字符，安装的时候需要注意
+
+## 
+see also 
+1. http://commons.apache.org/proper/commons-daemon/index.html
+2. https://dzone.com/articles/java-programs-as-windows-services
