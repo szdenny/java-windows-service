@@ -58,9 +58,8 @@ public class HeartBeatClient {
             String s;
             while ((s = in.readLine()) != null) {
                 s = s.toLowerCase();
-                System.out.println(s);
                 if (s.startsWith(processName)) {
-                    System.out.println("==========>" + processName);
+                    System.out.println("rdo process started!");
                     return true;
                 }
             }
