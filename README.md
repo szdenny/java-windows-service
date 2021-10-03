@@ -8,6 +8,7 @@
 ```
 set server_port=8081
 set server_ip=localhost
+set rdo_process=rdo
 ```
 5. run service.bat install to install service
 

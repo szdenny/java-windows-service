@@ -1,12 +1,11 @@
+import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-
-import java.net.*;
-import java.io.*;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
 
 public class EchoServer {
     public static void main(String[] args) throws IOException {

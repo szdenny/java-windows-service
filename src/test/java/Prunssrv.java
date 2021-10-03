@@ -1,6 +1,3 @@
-import java.net.*;
-import java.io.*;
-
 public class Prunssrv {
     public static void prunsrvStartServer(String[] args) throws Exception {
         String[] newArgs = new String[1];

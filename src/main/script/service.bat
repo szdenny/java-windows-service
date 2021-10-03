@@ -29,7 +29,8 @@ set PR_JVMSS=4000
 REM JVM options
 set server_port=8081
 set server_ip=localhost
-set PR_JVMOPTIONS=-Dserver.port=%server_port%;-Dserver.ip=%server_ip%
+set rdo_process=rdo.exe
+set PR_JVMOPTIONS=-Dserver.port=%server_port%;-Dserver.ip=%server_ip%;-Drdo.process=%rdo_process%
 
 REM current file
 set "SELF=%~dp0%service.bat"
